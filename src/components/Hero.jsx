@@ -1,4 +1,5 @@
 import React from "react";
+import heroImg from "../assets/img1.jpg";
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
         </div>
         <div className="flex-1 flex justify-end items-start m-0 p-0">
           <img
-            src="/src/assets/img1.jpg"
+            src={heroImg}
             alt="IELTS Study"
             className="w-full h-full object-cover m-0 p-0"
           />
